@@ -37,6 +37,7 @@ app.post("/upload", (req, res) => {
 	});
 });
 
+
 app.get("/sync", (req, res) => {
 	dbModel.find((err, data) => {
 		if (err) {
